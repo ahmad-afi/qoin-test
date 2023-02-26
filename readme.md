@@ -20,7 +20,7 @@ Lalu dari sisi back office:
 11. Adanya aplikasi untuk manajemen stok bahan baku makanan yang akan dijual, sehingga memastikan ketersediaan bahan baku yang cukup
 
 Berikut adalah desain database yang saya [usulkan](https://drive.google.com/file/d/1kJD1irCyr9hmW5dFjYlzW7Lv4G9p2PpN/view?usp=sharing):   
-!["skema-database"](./skema-database.svg) 
+!["skema-database"](./skema-database.png) 
 
 Teknologi yang akan saya gunakan:
 1. **Golang**, karena merupakan pemrograman yang open source dan memiliki kinerja yang baik dan mudah dikembangkan,sehingga cocok untuk aplikasi yang membutuhkan kecepatan dan skalabilitas
