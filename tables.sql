@@ -24,14 +24,10 @@ CREATE TABLE rekomendasi_menu (
     jumlah_dipesan INTEGER NOT NULL
 );
 
-CREATE TABLE laporan_stok (
-    id_laporan SERIAL PRIMARY KEY,
-    tanggal_laporan DATE NOT NULL,
-    nama_bahan_baku varchar(255) NOT NULL,
-    stok_awal INTEGER NOT NULL,
-    stok_akhir INTEGER NOT NULL,
-    stok_masuk INTEGER NOT NULL,
-    stok_keluar INTEGER NOT NULL
+CREATE TABLE stok_menu (
+    id_stok_menu SERIAL PRIMARY KEY,
+    id_menu INTEGER REFERENCES menu(id_menu),
+    stok INTEGER NOT NULL
 );
 
 CREATE TABLE bahan_baku (
@@ -67,6 +63,7 @@ CREATE TABLE pesanan (
 
 
 CREATE TABLE detail_pesanan (
+    id__detail_pesanan SERIAL PRIMARY KEY,
     id_pesanan INTEGER REFERENCES pesanan(id_pesanan),
     id_menu INTEGER REFERENCES menu(id_menu),
     jumlah_pesanan INTEGER NOT NULL,
