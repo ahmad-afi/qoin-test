@@ -19,11 +19,9 @@ func rollTheDice() int {
 	return rand.Intn(6) + 1
 }
 
-func main() {
+func GameDadu(numPlayer, numDice int) {
 
-	numPlayer := 3
 	cpNumPlayer := numPlayer
-	numDice := 2
 	mapPlayer := make(map[int]player)
 
 	// Mengeset nilai awal
