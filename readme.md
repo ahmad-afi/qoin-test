@@ -8,16 +8,16 @@ Kebutuhan:
 3. Aplikasi ini bisa mengeluarkan laporan penghasilan mingguan dan bulanan
 4. Aplikasi ini bisa mengeluarkan laporan stok
 
-Selain ini, saya juga mengusulkan fitur lainnya yaitu
-5. Adanya aplikasi untuk customer sehingga bisa memesan makanan lewat mobile
-6. Dapat melakukan pembayaran melalui aplikasi
-7. Menambahkan fitur "pesanan untuk diambil" atau "pesanan antar" sehingga customer dapat memilih yang nyaman bagi mereka
-8. Aplikasi dapat memberikan rekomendasi menu, baik berdasarkan terpopuler maupun berdasarkan history pemesanan
-9. Aplikasi dapat memungkinkan pengguna untuk dapat memasukan kode diskon untuk pembayaran
-10. Menambahkan fitur ulasan atau penilaian makanan yang dipesan, sehingga restoran dapat memperbaiki layanan dan kualitas mereka
+Selain ini, saya juga mengusulkan fitur lainnya yaitu:   
+5. Adanya aplikasi untuk customer sehingga bisa memesan makanan lewat mobile   
+6. Dapat melakukan pembayaran melalui aplikasi    
+7. Menambahkan fitur "pesanan untuk diambil" atau "pesanan antar" sehingga customer dapat memilih yang nyaman bagi mereka   
+8. Aplikasi dapat memberikan rekomendasi menu, baik berdasarkan terpopuler maupun berdasarkan history pemesanan   
+9. Aplikasi dapat memungkinkan pengguna untuk dapat memasukan kode diskon untuk pembayaran   
+10. Menambahkan fitur ulasan atau penilaian makanan yang dipesan, sehingga restoran dapat memperbaiki layanan dan kualitas mereka   
 
-Lalu dari sisi back office:
-11. Adanya aplikasi untuk manajemen stok bahan baku makanan yang akan dijual, sehingga memastikan ketersediaan bahan baku yang cukup
+Lalu dari sisi back office:   
+11. Adanya aplikasi untuk manajemen stok bahan baku makanan yang akan dijual, sehingga memastikan ketersediaan bahan baku yang cukup   
 
 Berikut adalah desain database yang saya [usulkan](https://drive.google.com/file/d/1kJD1irCyr9hmW5dFjYlzW7Lv4G9p2PpN/view?usp=sharing):   
 !["skema-database"](./skema-database.png) 
